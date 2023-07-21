@@ -1,0 +1,43 @@
+body{
+    background-color: #fcffff;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} 
+#score,#guestscore{
+    background-color: #000000;
+    width:120px;
+    color:rgb(209, 22, 22);
+    font-size: 90px;
+    font-weight: 800;
+    margin: 20px;
+}
+button{
+    background-color: #e9e2e2;
+    color: red;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+}
+.header{
+    font-size: 60px;
+    font-weight: 800;
+    background: linear-gradient(81.84deg, #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+@media screen and (max-width: 767px) {
+    .header{
+        font-size: 40px;
+    }
+}
